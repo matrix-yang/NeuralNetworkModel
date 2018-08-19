@@ -8,6 +8,6 @@ create_data.py
 ## 计算前向传播  
 forward.py  
 ## 训练过程   
-backward.py
+backward.py   <-----------------程序入口
 ## 学习到的函数     
 test.py
