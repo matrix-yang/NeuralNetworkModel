@@ -11,7 +11,7 @@ def generateds():
     #rdm.randn是一种产生标准正态分布的随机数或矩阵的函数
     X=rdm.randn(300,2)
     #print(X)
-    #半径为根号2的圆 ，圆内为1 ，圆外为0
+    #半径为根号2的圆 ，圆内为大点1 ，圆外为点0
     Y_=[int(x1*x1+x0*x0<2) for(x0,x1) in X]
     #print(Y_)
     #圆内为红色，圆外为蓝色
